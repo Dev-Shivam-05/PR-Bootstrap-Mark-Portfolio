@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>NEURALGLASS</title>
+    <title>Mark Web</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -10,53 +10,91 @@
     />
 
     <!-- Bootstrap CSS v5.2.1 -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
-    <!-- Bootstrap Icons CSS v5.2.1 -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <div class="navigation">
-            <a href="" class="navbar-brand">
-              <img
-                src="./assets/logo.svg"
-                class="img-fluid w-25 h-25"
-                alt="logo"
-              />
-              NEURALGLASS
-            </a>
-            <button type="button" class="navbar-toggler" data-bs-toggel="" data-bs-target="" aria-label="Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Netural</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Matrix</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Evolution</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Connect</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">External</a>
-                    </li>
-                </ul>
-            </div>
+      <nav class="nav">
+        <div class="container-fluid">
+          <div
+            class="nav-holder d-flex justify-content-between py-2 align-items-center text-center"
+          >
+            <a href="" class="navbar-brand">Mark</a>
+            <h6 class="d-inline-block">
+              Based in <a href="" class="text-black">Navsari</a>
+            </h6>
+            <a href="" class="btn">Menu</a>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!-- Hero's Section Starts -->
+      <div class="hero-section-wrapper">
+        <section class="hero h-100 position-relative">
+          <div class="hero-wrap">
+            <div class="text-wrap text-center">
+              <marquee
+                behavior="scroll"
+                direction="left"
+                class="text-uppercase position-absolute"
+                style="top: 80%; transform: translateY(80px)"
+                ><h3 class="display-3 fw-bold">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elite.
+                  Quod, aliquid!
+                </h3></marquee
+              >
+            </div>
+            <div
+              class="container-fluid d-flex align-items-center justify-content-center flex-column"
+            >
+              <h1
+                class="z-2 text-uppercase text-center mt-5 pt-5 fw-bold"
+                style="font-size: 132px"
+              >
+                Art / designer
+              </h1>
+              <img
+                src="./assets/hero-image.png"
+                class="z-1 position-absolute top-50 mx-auto"
+                style="transform: translateY(80px)"
+                height="550"
+                width="500"
+                alt="hero-image"
+              />
+              <p
+                class="text-grey z-3 position-absolute top-100"
+                style="left: 20px; transform: translateY(400%)"
+              >
+                I specialize in creating intuitive <br />interfaces that bridge
+                the gap <br />between aesthetics and <br />functionality.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Hero's Section Ends -->
+
+      <!-- Content Section Starts -->
+      <!-- <section class="content position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <p class="display-1">
+                Collaboration is at the Collaboration is at the heart of my
+                work. I thrive heart of my work. I thrive in dynamic
+                environments in dynamic environments where ideas flow freely
+                where ideas flow freely and diverse perspectives converge.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Content Section Ends -->
+    </main>
     <footer>
       <!-- place footer here -->
     </footer>
